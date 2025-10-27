@@ -91,3 +91,67 @@ GO
 -- Final view
 SELECT * FROM students;
 GO
+
+Screenshots
+
+(Add your own screenshots below)
+
+1️⃣ Database instance running (AWS RDS or Azure SQL)
+2️⃣ Successful connection in SSMS
+3️⃣ Query result (table data output)
+
+
+---
+
+🧠 What I Learned
+
+How to create a cloud database instance (DBaaS)
+
+How to connect using SSMS
+
+How to run SQL queries to manage data
+
+The importance of security groups and IP whitelisting
+
+Basics of CRUD operations (Create, Read, Update, Delete)
+
+
+
+---
+
+💬 Interview Prep
+
+Question	Simple Answer
+
+What is DBaaS?	Database-as-a-Service — managed by the cloud provider.
+Why use cloud databases?	No need for manual setup, auto backups, easy scaling, high availability.
+What’s the difference between self-hosted and managed DB?	Managed DBs are handled by the provider (patching, backup, HA).
+How to connect securely?	Use your IP in inbound rules, use SSL, avoid 0.0.0.0/0.
+What is scalability?	Ability to increase resources easily (CPU, storage).
+
+
+
+---
+
+🧹 Clean-up
+
+After testing, delete or stop your instance to avoid unnecessary charges:
+
+In AWS → RDS → Databases → Select your DB → Delete
+
+Uncheck snapshot (for testing)
+
+Confirm deletion ✅
+
+
+
+---
+
+📚 Author
+
+Ashwini Rathod
+Simplilearn Certified Cloud Architect (2024)
+GitHub: https://github.com/Ashwinigrathod
+
+---
+
